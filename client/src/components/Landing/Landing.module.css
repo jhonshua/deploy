@@ -1,0 +1,58 @@
+
+  .main {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .h1 {
+    margin-right: 2rem;
+    font-size: 120px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .button {
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    background-color:  #859398;
+    box-shadow: 10px 5px 6px #000000a8;
+    cursor:pointer;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .button::before {
+
+    background-color: #695a57;
+
+  }
+
+
+  /*
+  
+  vamos a utilizar gris y colores claros para que las imagenes de la comida sean el principal protagonista
+  
+  https://www.canva.com/es_mx/aprende/100-combinaciones-colores-como-aplicarlas-disenos/
+  
+  */

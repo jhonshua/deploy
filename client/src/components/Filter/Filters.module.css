@@ -1,0 +1,25 @@
+.select, .reset {
+  margin-left: 2rem;
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #263159;
+  box-shadow: 0 0 6px #000000a8;
+}
+
+.select:hover, .reset:hover {
+  cursor: pointer;
+  background-color: #e9e3d0;
+  color: rgba(0, 0, 0, 0.342);
+  box-shadow: 0 0 5px 7px #00000021;
+}
+
+.filters {
+  margin: 20px auto;
+}
+
+ .reset {
+  padding: 9px 20px;
+}
+

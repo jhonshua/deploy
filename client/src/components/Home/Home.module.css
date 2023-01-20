@@ -1,0 +1,72 @@
+.home {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background: #bdc3c710;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  width: 100%;
+  height: 140%;
+  position: absolute;
+  background-repeat: repeat;
+}
+
+/* Cards */
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ background-image: url("../../img/pexels-lukas-616401.jpg");
+ background-position: center;
+background-size: cover;
+
+
+}
+
+.cards {
+  background: rgb(255, 255, 255);
+  width: 330px;
+  height: 425px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.651);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.cards:hover {
+  transform: translateY(-15px);
+  box-shadow: 10px 22px 26px #000000fb;
+}
+
+.b {
+  padding: 4px 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  font-weight: 400;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #BAD1C2;
+  box-shadow: 0 0 4px #000000a8;
+  display: inline-block;
+  color: black;  
+}
+
+.b:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #334961;
+  box-shadow: 0 0 4px #000000a8
+}
+
+
+/*
+
+CSS Hover Effects:
+
+https://www.simplilearn.com/tutorials/css-tutorial/css-hover-effects#:~:text=CTMEEnroll%20Now-,What%20is%20a%20CSS%20Hover%20Effect%3F,to%20enhance%20the%20user%20experience.
+
+*/
