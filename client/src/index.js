@@ -10,7 +10,7 @@ import axios from 'axios';
 import dotenv from "dotenv";
 dotenv.config();
 
-axios.defaults.baseURL = "api-food-production-b8fe.up.railway.app";
+axios.defaults.baseURL = "https://deploy-production-8341.up.railway.app/";
 
 ReactDOM.render(
   <React.StrictMode>
